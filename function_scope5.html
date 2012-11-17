@@ -1,0 +1,16 @@
+<script>
+function globalFunction() {
+	alert('global function');
+}
+
+function containerFunction() {
+	var subFunction = functio() {
+		alert('container subfunction');
+		globalFunction();
+	}
+	subFunction();
+}
+
+// if you do this will get a blank screen, can only be called through function container
+subFunction();
+</script>

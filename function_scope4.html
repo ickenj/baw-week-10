@@ -1,0 +1,15 @@
+<script>
+function globalFunction() {
+	alert('global function');
+}
+
+function containerFunction() {
+	var subFunction = functio() {
+		alert('container subfunction');
+		globalFunction();
+	}
+	subFunction();
+}
+
+containerFunction();
+</script>
