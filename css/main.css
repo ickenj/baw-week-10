@@ -335,3 +335,54 @@ header img {
    float: left;
 
 }
+
+<style>
+form {
+padding: 1em;
+}
+
+label {
+width: 5em;
+float: left;
+}
+
+input {
+border: 1px solid black;		
+float: left;
+width: 12em;
+margin-bottom: .5em;
+}
+
+br {	
+clear: left;
+}
+ /* Table Style */
+
+table {
+border-collapse: collapse;
+table-layout: fixed;
+}
+
+.narrow {
+display: table-cell;
+width: 4em;
+}
+
+.wide {
+display: table-cell;	
+width: 12em;
+
+}
+caption {
+text-align: left;
+font-size: 150%;
+font-weight: bold;
+margin: .5em 0;
+
+}
+
+th  {
+text-align: left;
+text-decoration: underline;
+}
+</style>
